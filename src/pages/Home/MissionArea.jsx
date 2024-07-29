@@ -1,4 +1,9 @@
 import React from 'react';
+import missionImg from '../../assets/img/mission-img.png';
+import shape13 from '../../assets/img/shape/shape13.png';
+import shape11 from '../../assets/img/shape/shape11.png';
+import shape12 from '../../assets/img/shape/shape12.png';
+import shape9 from '../../assets/img/shape/shape9.png';
 
 const MissionArea = () => {
   return (
@@ -63,23 +68,23 @@ const MissionArea = () => {
           </div>
           <div className="col-lg-6">
             <div className="mission-img">
-              <img src="/assets/img/mission-img.png" alt="Images" />
+              <img src={missionImg} alt="Mission" />
             </div>
           </div>
         </div>
       </div>
       <div className="mission-shape">
         <div className="shape1">
-          <img src="/assets/img/shape/shape13.png" alt="Images" />
+          <img src={shape13} alt="Shape 13" />
         </div>
         <div className="shape2">
-          <img src="/assets/img/shape/shape11.png" alt="Images" />
+          <img src={shape11} alt="Shape 11" />
         </div>
         <div className="shape3">
-          <img src="/assets/img/shape/shape12.png" alt="Images" />
+          <img src={shape12} alt="Shape 12" />
         </div>
         <div className="shape4">
-          <img src="/assets/img/shape/shape9.png" alt="Images" />
+          <img src={shape9} alt="Shape 9" />
         </div>
       </div>
     </div>

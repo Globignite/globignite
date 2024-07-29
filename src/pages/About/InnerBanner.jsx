@@ -1,4 +1,8 @@
 import React from 'react';
+import bannerShape1 from '../../assets/img/inner-banner/banner-shape1.png';
+import bannerShape2 from '../../assets/img/inner-banner/banner-shape2.png';
+import bannerShape3 from '../../assets/img/inner-banner/banner-shape3.png';
+import dotsShape from '../../assets/img/shape/dots-shape.png';
 
 const InnerBanner = () => {
   return (
@@ -19,16 +23,16 @@ const InnerBanner = () => {
       </div>
       <div className="inner-banner-shape">
         <div className="shape-one">
-          <img src="/assets/img/inner-banner/banner-shape1.png" alt="Images" />
+          <img src={bannerShape1} alt="Banner Shape 1" />
         </div>
         <div className="shape-two">
-          <img src="/assets/img/inner-banner/banner-shape2.png" alt="Images" />
+          <img src={bannerShape2} alt="Banner Shape 2" />
         </div>
         <div className="shape-three">
-          <img src="/assets/img/inner-banner/banner-shape3.png" alt="Images" />
+          <img src={bannerShape3} alt="Banner Shape 3" />
         </div>
         <div className="inner-banner-dots">
-          <img src="/assets/img/shape/dots-shape.png" alt="Images" />
+          <img src={dotsShape} alt="Dots Shape" />
         </div>
       </div>
     </div>

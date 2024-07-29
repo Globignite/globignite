@@ -1,5 +1,5 @@
 import React from 'react';
-
+ 
 const ServiceList = () => {
   return (
     <div className="service-list-area pt-100 pb-70">

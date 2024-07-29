@@ -1,4 +1,17 @@
 import React from "react";
+import teamImg7 from '../assets/img/team/team-img7.jpg';
+import teamImg8 from '../assets/img/team/team-img8.jpg';
+import teamImg9 from '../assets/img/team/team-img9.jpg';
+import teamImg10 from '../assets/img/team/team-img10.jpg';
+import teamImg11 from '../assets/img/team/team-img11.jpg';
+import teamImg12 from '../assets/img/team/team-img12.jpg';
+import shape13 from '../assets/img/shape/shape13.png';
+import shape11 from '../assets/img/shape/shape11.png';
+import shape10 from '../assets/img/shape/shape10.png';
+import shape9 from '../assets/img/shape/shape9.png';
+import shape12 from '../assets/img/shape/shape12.png';
+import shape7 from '../assets/img/shape/shape7.png';
+import shape14 from '../assets/img/shape/shape14.png';
 
 const Team = () => {
   return (
@@ -13,7 +26,7 @@ const Team = () => {
         <div className="team-slider-two owl-carousel owl-theme">
           <div className="team-card active">
             <a href="#">
-              <img src="/assets/img/team/team-img7.jpg" alt="Images" />
+              <img src={teamImg7} alt="Cristiono Kopper" />
             </a>
             <div className="content">
               <h3>
@@ -46,7 +59,7 @@ const Team = () => {
           </div>
           <div className="team-card team-rotated">
             <a href="#">
-              <img src="/assets/img/team/team-img8.jpg" alt="Images" />
+              <img src={teamImg8} alt="Jermin Jekson" />
             </a>
             <div className="content">
               <h3>
@@ -79,7 +92,7 @@ const Team = () => {
           </div>
           <div className="team-card">
             <a href="#">
-              <img src="/assets/img/team/team-img9.jpg" alt="Images" />
+              <img src={teamImg9} alt="Hobler Jeain" />
             </a>
             <div className="content">
               <h3>
@@ -112,7 +125,7 @@ const Team = () => {
           </div>
           <div className="team-card team-rotated-2">
             <a href="#">
-              <img src="/assets/img/team/team-img10.jpg" alt="Images" />
+              <img src={teamImg10} alt="Julfiker Jeain" />
             </a>
             <div className="content">
               <h3>
@@ -145,7 +158,7 @@ const Team = () => {
           </div>
           <div className="team-card active">
             <a href="#">
-              <img src="/assets/img/team/team-img11.jpg" alt="Images" />
+              <img src={teamImg11} alt="Hobler Jeain" />
             </a>
             <div className="content">
               <h3>
@@ -178,7 +191,7 @@ const Team = () => {
           </div>
           <div className="team-card team-rotated-2">
             <a href="#">
-              <img src="/assets/img/team/team-img12.jpg" alt="Images" />
+              <img src={teamImg12} alt="Julfiker Jeain" />
             </a>
             <div className="content">
               <h3>
@@ -213,25 +226,25 @@ const Team = () => {
       </div>
       <div className="team-two-shape">
         <div className="shape1">
-          <img src="/assets/img/shape/shape13.png" alt="Images" />
+          <img src={shape13} alt="Shape 13" />
         </div>
         <div className="shape2">
-          <img src="/assets/img/shape/shape11.png" alt="Images" />
+          <img src={shape11} alt="Shape 11" />
         </div>
         <div className="shape3">
-          <img src="/assets/img/shape/shape10.png" alt="Images" />
+          <img src={shape10} alt="Shape 10" />
         </div>
         <div className="shape4">
-          <img src="/assets/img/shape/shape9.png" alt="Images" />
+          <img src={shape9} alt="Shape 9" />
         </div>
         <div className="shape5">
-          <img src="/assets/img/shape/shape12.png" alt="Images" />
+          <img src={shape12} alt="Shape 12" />
         </div>
         <div className="shape6">
-          <img src="/assets/img/shape/shape7.png" alt="Images" />
+          <img src={shape7} alt="Shape 7" />
         </div>
         <div className="shape7">
-          <img src="/assets/img/shape/shape14.png" alt="Images" />
+          <img src={shape14} alt="Shape 14" />
         </div>
       </div>
     </div>

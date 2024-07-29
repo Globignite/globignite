@@ -1051,7 +1051,8 @@
   .footer-social-icon .social-link {
     float: none;
   }
-  .footer-widget.ps-5, .footer-widget.px-5 {
+  .footer-widget.ps-5,
+  .footer-widget.px-5 {
     padding-left: 0 !important;
   }
   .copy-right-area .copy-right-text p {
@@ -2074,7 +2075,8 @@
   .footer-social-icon .social-link {
     float: none;
   }
-  .footer-widget.ps-5, .footer-widget.px-5 {
+  .footer-widget.ps-5,
+  .footer-widget.px-5 {
     padding-left: 0 !important;
   }
   .copy-right-area .copy-right-text p {
@@ -2463,4 +2465,4 @@
     max-width: 1320px !important;
     margin: 0 auto;
   }
-}/*# sourceMappingURL=responsive.css.map */
+} /*# sourceMappingURL=responsive.css.map */

@@ -1,4 +1,5 @@
 import React from "react";
+import historyImg from "../../assets/img/history-img.png";
 
 const History = () => {
   return (
@@ -70,7 +71,7 @@ const History = () => {
           </div>
           <div className="col-lg-6">
             <div className="history-img">
-              <img src="/assets/img/history-img.png" alt="Images" />
+              <img src={historyImg} alt="History" />
             </div>
           </div>
         </div>

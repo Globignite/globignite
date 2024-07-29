@@ -67,7 +67,8 @@ a {
   transition: all 0.5s;
   text-decoration: none;
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
@@ -81,7 +82,12 @@ button:focus {
   border: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   font-family: "Livvic", sans-serif;
   line-height: 1.4;
@@ -350,7 +356,8 @@ Navbar Area
   z-index: 999;
   height: auto;
 }
-.main-nav nav .navbar-nav .nav-item:hover a, .main-nav nav .navbar-nav .nav-item .active {
+.main-nav nav .navbar-nav .nav-item:hover a,
+.main-nav nav .navbar-nav .nav-item .active {
   color: #ff3900 !important;
 }
 .main-nav nav .navbar-nav .nav-item a {
@@ -366,7 +373,8 @@ Navbar Area
   top: 3px;
   font-size: 18px;
 }
-.main-nav nav .navbar-nav .nav-item a:hover, .main-nav nav .navbar-nav .nav-item a :focus {
+.main-nav nav .navbar-nav .nav-item a:hover,
+.main-nav nav .navbar-nav .nav-item a :focus {
   color: #ff3900 !important;
 }
 .main-nav nav .navbar-nav .nav-item a.active {
@@ -404,7 +412,9 @@ Navbar Area
   border-radius: 0.25rem;
   color: #ff3900 !important;
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
   color: #ff3900 !important;
   margin-left: 5px;
   border-radius: 0.25rem;
@@ -417,7 +427,15 @@ Navbar Area
   margin-top: 18px !important;
   position: absolute;
 }
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.main-nav
+  nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   left: 100%;
 }
 .main-nav nav .side-nav {
@@ -513,17 +531,20 @@ Navbar Area
   background-color: #2966be;
 }
 
-.nav-bar-two nav .navbar-nav .nav-item:hover a, .nav-bar-two nav .navbar-nav .nav-item .active {
+.nav-bar-two nav .navbar-nav .nav-item:hover a,
+.nav-bar-two nav .navbar-nav .nav-item .active {
   color: #ffffff !important;
 }
 .nav-bar-two nav .navbar-nav .nav-item a {
   color: #ffffff;
   position: relative;
 }
-.nav-bar-two nav .navbar-nav .nav-item a:hover, .nav-bar-two nav .navbar-nav .nav-item a :focus {
+.nav-bar-two nav .navbar-nav .nav-item a:hover,
+.nav-bar-two nav .navbar-nav .nav-item a :focus {
   color: #ffffff !important;
 }
-.nav-bar-two nav .navbar-nav .nav-item a:hover::before, .nav-bar-two nav .navbar-nav .nav-item a :focus::before {
+.nav-bar-two nav .navbar-nav .nav-item a:hover::before,
+.nav-bar-two nav .navbar-nav .nav-item a :focus::before {
   opacity: 1;
   width: 100%;
 }
@@ -555,7 +576,9 @@ Navbar Area
 .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
   display: none;
 }
-.nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a:hover::before, .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a :focus::before, .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a .active::before {
+.nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a:hover::before,
+.nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a :focus::before,
+.nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li a .active::before {
   display: none;
 }
 .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li.active::before {
@@ -565,7 +588,8 @@ Navbar Area
 .nav-bar-three nav .navbar-nav .nav-item a {
   position: relative;
 }
-.nav-bar-three nav .navbar-nav .nav-item a:hover::before, .nav-bar-three nav .navbar-nav .nav-item a :focus::before {
+.nav-bar-three nav .navbar-nav .nav-item a:hover::before,
+.nav-bar-three nav .navbar-nav .nav-item a :focus::before {
   opacity: 1;
   width: 100%;
 }
@@ -594,7 +618,9 @@ Navbar Area
 .nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
   display: none;
 }
-.nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a:hover::before, .nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a :focus::before, .nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a .active::before {
+.nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a:hover::before,
+.nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a :focus::before,
+.nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li a .active::before {
   display: none;
 }
 .nav-bar-three nav .navbar-nav .nav-item .dropdown-menu li.active::before {
@@ -776,7 +802,11 @@ Navbar Area
   width: 240px;
   border-radius: 5px;
 }
-.side-nav-responsive .side-nav-inner .side-nav .search-box-2 .form-control:focus {
+.side-nav-responsive
+  .side-nav-inner
+  .side-nav
+  .search-box-2
+  .form-control:focus {
   box-shadow: none !important;
   border: 1px solid #6c6c6c;
 }
@@ -3612,34 +3642,63 @@ Courses Area End
   position: relative;
   margin-bottom: 20px;
 }
-.course-details-area .review-content .rating-bar-content .single-bar .rating-bar {
+.course-details-area
+  .review-content
+  .rating-bar-content
+  .single-bar
+  .rating-bar {
   width: 100%;
   background-color: #dddddd;
   border-radius: 10px;
 }
-.course-details-area .review-content .rating-bar-content .single-bar .rating-bar .skills {
+.course-details-area
+  .review-content
+  .rating-bar-content
+  .single-bar
+  .rating-bar
+  .skills {
   text-align: right;
   padding-top: 8px;
   padding-bottom: 8px;
   color: #ff3900;
   border-radius: 10px;
 }
-.course-details-area .review-content .rating-bar-content .single-bar .rating-bar .skills.html {
+.course-details-area
+  .review-content
+  .rating-bar-content
+  .single-bar
+  .rating-bar
+  .skills.html {
   width: 90%;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border-radius: 10px;
 }
-.course-details-area .review-content .rating-bar-content .single-bar .rating-bar .skills.css {
+.course-details-area
+  .review-content
+  .rating-bar-content
+  .single-bar
+  .rating-bar
+  .skills.css {
   width: 80%;
-  background-color: #2196F3;
+  background-color: #2196f3;
   border-radius: 10px;
 }
-.course-details-area .review-content .rating-bar-content .single-bar .rating-bar .skills.js {
+.course-details-area
+  .review-content
+  .rating-bar-content
+  .single-bar
+  .rating-bar
+  .skills.js {
   width: 65%;
   background-color: #f44336;
   border-radius: 10px;
 }
-.course-details-area .review-content .rating-bar-content .single-bar .rating-bar .skills.php {
+.course-details-area
+  .review-content
+  .rating-bar-content
+  .single-bar
+  .rating-bar
+  .skills.php {
   width: 60%;
   background-color: #808080;
   border-radius: 10px;
@@ -3667,21 +3726,40 @@ Courses Area End
   list-style: none;
   padding: 0;
 }
-.course-details-area .review-content .course-reviews-content .course-reviews li {
+.course-details-area
+  .review-content
+  .course-reviews-content
+  .course-reviews
+  li {
   position: relative;
   padding-left: 100px;
 }
-.course-details-area .review-content .course-reviews-content .course-reviews li img {
+.course-details-area
+  .review-content
+  .course-reviews-content
+  .course-reviews
+  li
+  img {
   position: absolute;
   top: 0;
   left: 0;
 }
-.course-details-area .review-content .course-reviews-content .course-reviews li h3 {
+.course-details-area
+  .review-content
+  .course-reviews-content
+  .course-reviews
+  li
+  h3 {
   margin-bottom: 15px;
   border: none;
   padding-bottom: 0;
 }
-.course-details-area .review-content .course-reviews-content .course-reviews li span {
+.course-details-area
+  .review-content
+  .course-reviews-content
+  .course-reviews
+  li
+  span {
   margin: 0;
   color: #2a284f;
   display: block;
@@ -4147,11 +4225,19 @@ Pricing Area
   background-image: linear-gradient(to right, #ff2500, #ff7100);
 }
 .button-bg2:hover {
-  background-image: linear-gradient(to right, rgba(7, 1, 0, 0.9803921569), rgba(3, 2, 0, 0.6588235294));
+  background-image: linear-gradient(
+    to right,
+    rgba(7, 1, 0, 0.9803921569),
+    rgba(3, 2, 0, 0.6588235294)
+  );
 }
 
 .button-bg3 {
-  background-image: linear-gradient(to right, rgba(7, 1, 0, 0.9803921569), rgba(3, 2, 0, 0.6588235294));
+  background-image: linear-gradient(
+    to right,
+    rgba(7, 1, 0, 0.9803921569),
+    rgba(3, 2, 0, 0.6588235294)
+  );
 }
 .button-bg3:hover {
   background-image: linear-gradient(to right, #0f0788, #280fb8);
@@ -6475,7 +6561,10 @@ Coming Soon Area
   border: 1px solid #2a284f;
   color: #5d5d5d;
 }
-.coming-soon-area .coming-soon-content .newsletter-form .input-newsletter:focus {
+.coming-soon-area
+  .coming-soon-content
+  .newsletter-form
+  .input-newsletter:focus {
   border-color: #ff3900;
 }
 .coming-soon-area .coming-soon-content .newsletter-form .default-btn-two {
@@ -6627,7 +6716,11 @@ Back To Top Button
   transition: 0.9s;
 }
 .top-btn:hover {
-  background-image: linear-gradient(to right, rgba(7, 1, 0, 0.9058823529), rgba(7, 3, 0, 0.7333333333));
+  background-image: linear-gradient(
+    to right,
+    rgba(7, 1, 0, 0.9058823529),
+    rgba(7, 3, 0, 0.7333333333)
+  );
   box-shadow: 0 0 15px #1a1b1e;
   color: #fff;
 }
@@ -6765,4 +6858,4 @@ Buy Now Btn
 .buy-now-btn:hover {
   color: #ffffff;
   background-color: #94be5d;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

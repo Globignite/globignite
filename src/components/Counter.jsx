@@ -1,4 +1,5 @@
 import React from 'react';
+import counterShape from '../assets/img/counter/counter-shape.png';
 
 const Counter = () => {
   return (
@@ -32,7 +33,7 @@ const Counter = () => {
         </div>
       </div>
       <div className="counter-shape-top">
-        <img src="/assets/img/counter/counter-shape.png" alt="Images" />
+        <img src={counterShape} alt="Counter Shape" />
       </div>
     </div>
   );

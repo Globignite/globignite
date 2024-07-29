@@ -1,4 +1,12 @@
 import React from 'react';
+import serviceIcon7 from '../../assets/img/service/service-icon7.png';
+import serviceIcon8 from '../../assets/img/service/service-icon8.png';
+import serviceIcon9 from '../../assets/img/service/service-icon9.png';
+import shape9 from '../../assets/img/shape/shape9.png';
+import shape10 from '../../assets/img/shape/shape10.png';
+import shape11 from '../../assets/img/shape/shape11.png';
+import shape7 from '../../assets/img/shape/shape7.png';
+import shape12 from '../../assets/img/shape/shape12.png';
 
 const ServiceArea = () => {
   return (
@@ -14,7 +22,7 @@ const ServiceArea = () => {
               <h3><a href="service-details.html">Consumer Analytics</a></h3>
               <div className="service-item-img">
                 <a href="service-details.html">
-                  <img src="/assets/img/service/service-icon7.png" alt="Images" />
+                  <img src={serviceIcon7} alt="Consumer Analytics" />
                 </a>
                 <div className="img-circle"></div>
               </div>
@@ -30,7 +38,7 @@ const ServiceArea = () => {
               <h3><a href="service-details.html">Marketing Analytics</a></h3>
               <div className="service-item-img">
                 <a href="service-details.html">
-                  <img src="/assets/img/service/service-icon8.png" alt="Images" />
+                  <img src={serviceIcon8} alt="Marketing Analytics" />
                 </a>
                 <div className="img-circle"></div>
               </div>
@@ -46,7 +54,7 @@ const ServiceArea = () => {
               <h3><a href="service-details.html">Sales Analytics</a></h3>
               <div className="service-item-img">
                 <a href="service-details.html">
-                  <img src="/assets/img/service/service-icon9.png" alt="Images" />
+                  <img src={serviceIcon9} alt="Sales Analytics" />
                 </a>
                 <div className="img-circle"></div>
               </div>
@@ -61,19 +69,19 @@ const ServiceArea = () => {
       </div>
       <div className="service-two-shape">
         <div className="shape-in1">
-          <img src="/assets/img/shape/shape9.png" alt="Images" />
+          <img src={shape9} alt="Shape 9" />
         </div>
         <div className="shape-in2">
-          <img src="/assets/img/shape/shape10.png" alt="Images" />
+          <img src={shape10} alt="Shape 10" />
         </div>
         <div className="shape-in3">
-          <img src="/assets/img/shape/shape11.png" alt="Images" />
+          <img src={shape11} alt="Shape 11" />
         </div>
         <div className="shape-in4">
-          <img src="/assets/img/shape/shape7.png" alt="Images" />
+          <img src={shape7} alt="Shape 7" />
         </div>
         <div className="shape-in5">
-          <img src="/assets/img/shape/shape12.png" alt="Images" />
+          <img src={shape12} alt="Shape 12" />
         </div>
       </div>
     </div>

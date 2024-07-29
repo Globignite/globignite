@@ -1,4 +1,10 @@
 import React from 'react';
+import shape13 from '../../assets/img/shape/shape13.png';
+import shape11 from '../../assets/img/shape/shape11.png';
+import shape10 from '../../assets/img/shape/shape10.png';
+import shape9 from '../../assets/img/shape/shape9.png';
+import shape7 from '../../assets/img/shape/shape7.png';
+import shape12 from '../../assets/img/shape/shape12.png';
 
 const ServiceAnother = () => {
   return (
@@ -79,22 +85,22 @@ const ServiceAnother = () => {
       </div>
       <div className="service-another-shape">
         <div className="shape-1">
-          <img src="/assets/img/shape/shape13.png" alt="Images" />
+          <img src={shape13} alt="Shape 13" />
         </div>
         <div className="shape-2">
-          <img src="/assets/img/shape/shape11.png" alt="Images" />
+          <img src={shape11} alt="Shape 11" />
         </div>
         <div className="shape-3">
-          <img src="/assets/img/shape/shape10.png" alt="Images" />
+          <img src={shape10} alt="Shape 10" />
         </div>
         <div className="shape-4">
-          <img src="/assets/img/shape/shape9.png" alt="Images" />
+          <img src={shape9} alt="Shape 9" />
         </div>
         <div className="shape-5">
-          <img src="/assets/img/shape/shape7.png" alt="Images" />
+          <img src={shape7} alt="Shape 7" />
         </div>
         <div className="shape-6">
-          <img src="/assets/img/shape/shape12.png" alt="Images" />
+          <img src={shape12} alt="Shape 12" />
         </div>
       </div>
     </div>

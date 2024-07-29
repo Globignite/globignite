@@ -1,4 +1,11 @@
 import React from 'react';
+import blog1 from '../../assets/img/blog/blog1.png';
+import blog2 from '../../assets/img/blog/blog2.png';
+import blog3 from '../../assets/img/blog/blog3.png';
+import shape1 from '../../assets/img/shape/shape1.png';
+import shape2 from '../../assets/img/shape/shape5.png';
+import shape3 from '../../assets/img/shape/shape4.png';
+import shape4 from '../../assets/img/shape/shape6.png';
 
 const BlogArea = () => {
   return (
@@ -16,7 +23,7 @@ const BlogArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="blog-card">
               <a href="blog-details.html">
-                <img src="/assets/img/blog/blog1.png" alt="Images" />
+                <img src={blog1} alt="Blog 1" />
               </a>
               <div className="content">
                 <ul>
@@ -36,7 +43,7 @@ const BlogArea = () => {
           <div className="col-lg-4 col-md-6">
             <div className="blog-card">
               <a href="blog-details.html">
-                <img src="/assets/img/blog/blog2.png" alt="Images" />
+                <img src={blog2} alt="Blog 2" />
               </a>
               <div className="content">
                 <ul>
@@ -56,7 +63,7 @@ const BlogArea = () => {
           <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
             <div className="blog-card">
               <a href="blog-details.html">
-                <img src="/assets/img/blog/blog3.png" alt="Images" />
+                <img src={blog3} alt="Blog 3" />
               </a>
               <div className="content">
                 <ul>
@@ -77,16 +84,16 @@ const BlogArea = () => {
       </div>
       <div className="blog-shape">
         <div className="shape1">
-          <img src="/assets/img/shape/shape1.png" alt="Images" />
+          <img src={shape1} alt="Shape 1" />
         </div>
         <div className="shape2">
-          <img src="/assets/img/shape/shape5.png" alt="Images" />
+          <img src={shape2} alt="Shape 2" />
         </div>
         <div className="shape3">
-          <img src="/assets/img/shape/shape4.png" alt="Images" />
+          <img src={shape3} alt="Shape 3" />
         </div>
         <div className="shape4">
-          <img src="/assets/img/shape/shape6.png" alt="Images" />
+          <img src={shape4} alt="Shape 4" />
         </div>
       </div>
     </div>

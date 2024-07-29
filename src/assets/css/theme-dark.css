@@ -62,7 +62,12 @@
   background-position: center;
 }
 
-.theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6 {
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark h4,
+.theme-dark h5,
+.theme-dark h6 {
   color: #ffffff;
 }
 .theme-dark h3 {
@@ -150,7 +155,11 @@
   border: none;
   outline: none;
 }
-.theme-dark .search-overlay .search-form form .input-search:focus::-moz-placeholder {
+.theme-dark
+  .search-overlay
+  .search-form
+  form
+  .input-search:focus::-moz-placeholder {
   color: #ffffff;
 }
 .theme-dark .search-overlay .search-form form .input-search:focus::placeholder {
@@ -325,7 +334,12 @@
 .theme-dark .course-details-area .course-details-tab .tabs li.current a {
   color: #ff3900;
 }
-.theme-dark .course-details-area .course-details-tab .tabs li.current a::before {
+.theme-dark
+  .course-details-area
+  .course-details-tab
+  .tabs
+  li.current
+  a::before {
   background-color: #ff3900;
 }
 .theme-dark .course-details-area .curriculum-content ul li {
@@ -348,7 +362,12 @@
   background-color: #ff3900;
   color: #ffffff;
 }
-.theme-dark .course-details-area .course-reviews-content .course-reviews li span {
+.theme-dark
+  .course-details-area
+  .course-reviews-content
+  .course-reviews
+  li
+  span {
   color: #ffffff;
 }
 .theme-dark .account-wrap ul li {
@@ -618,4 +637,4 @@
 }
 .theme-dark .blog-article .comments-form .contact-form {
   background-color: #000000 !important;
-}/*# sourceMappingURL=theme-dark.css.map */
+} /*# sourceMappingURL=theme-dark.css.map */

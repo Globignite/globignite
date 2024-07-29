@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutImg4 from '../assets/img/about/about-img4.png';
 
 const AboutWidget = () => {
   return (
@@ -7,7 +8,7 @@ const AboutWidget = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="about-widget-img">
-              <img src="/assets/img/about/about-img4.png" alt="About Us" />
+              <img src={aboutImg4} alt="About Us" />
             </div>
           </div>
           <div className="col-lg-6">

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ContactInfoCards = () => {
   return (
@@ -14,10 +14,12 @@ const ContactInfoCards = () => {
             <div className="contact-card">
               <i className="flaticon-planet-earth"></i>
               <h3>Office Location</h3>
-              <p>54 Hegmann Uninuo Apt. 890, New York, NY 10018, United States.</p>
+              <p>
+                54 Hegmann Uninuo Apt. 890, New York, NY 10018, United States.
+              </p>
               <a href="#" className="contact-card-btn">
                 Direction
-                <i className='bx bx-plus plus-btn'></i>
+                <i className="bx bx-plus plus-btn"></i>
               </a>
             </div>
           </div>
@@ -29,7 +31,7 @@ const ContactInfoCards = () => {
               <p>Mobile: (+44) - 45789 - 5789</p>
               <a href="#" className="contact-card-btn">
                 Learn More
-                <i className='bx bx-plus plus-btn'></i>
+                <i className="bx bx-plus plus-btn"></i>
               </a>
             </div>
           </div>
@@ -41,7 +43,7 @@ const ContactInfoCards = () => {
               <p>Sunday & Saturday: 10:30 - 22:00</p>
               <a href="#" className="contact-card-btn">
                 Support
-                <i className='bx bx-plus plus-btn'></i>
+                <i className="bx bx-plus plus-btn"></i>
               </a>
             </div>
           </div>
@@ -49,6 +51,6 @@ const ContactInfoCards = () => {
       </div>
     </div>
   );
-}
+};
 
 export default ContactInfoCards;

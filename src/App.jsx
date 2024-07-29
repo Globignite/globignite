@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import NotFound from "./pages/NotFound";
+import ContactUs from "./pages/ContactUs/ContactUs";
 
 // Importing CSS and SCSS files
 import "./assets/css/animate.min.css";
@@ -15,13 +16,9 @@ import "./assets/css/owl.theme.default.min.css";
 import "./assets/css/responsive.css";
 import "./assets/css/style.css";
 import "./assets/css/theme-dark.css";
-import "./assets/css/responsive.scss";
-import "./assets/css/style.scss";
-import "./assets/css/theme-dark.scss";
 
 // Importing font CSS
 import "./assets/fonts/flaticon.css";
-import ContactUs from "./pages/ContactUs/ContactUs";
 
 const App = () => {
   return (

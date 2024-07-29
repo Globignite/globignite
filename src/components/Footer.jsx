@@ -1,4 +1,6 @@
 import React from 'react';
+import logo1 from '../assets/img/logo/logo1.png';
+import logo2 from '../assets/img/logo/logo2.png';
 
 const Footer = () => {
   return (
@@ -9,8 +11,8 @@ const Footer = () => {
             <div className="col-lg-4 col-sm-7">
               <div className="footer-widget">
                 <div className="footer-img">
-                  <img src="/assets/img/logo/logo1.png" className="footer-img1" alt="Images" />
-                  <img src="/assets/img/logo/logo2.png" className="footer-img2" alt="Images" />
+                  <img src={logo1} className="footer-img1" alt="Logo 1" />
+                  <img src={logo2} className="footer-img2" alt="Logo 2" />
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna</p>
                 <div className="footer-social-icon">
@@ -64,7 +66,7 @@ const Footer = () => {
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="/about">About</a>
+                    <a href="/about-us">About</a>
                   </li>
                   <li>
                     <a href="/case-study">Case Studies</a>
@@ -73,7 +75,7 @@ const Footer = () => {
                     <a href="/blog">Our Blog</a>
                   </li>
                   <li>
-                    <a href="/contact">Contact</a>
+                    <a href="/contact-us">Contact</a>
                   </li>
                 </ul>
               </div>

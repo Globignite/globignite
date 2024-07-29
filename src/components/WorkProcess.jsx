@@ -1,4 +1,5 @@
 import React from "react";
+import workImg from "../assets/img/work-img.png";
 
 const WorkProcess = () => {
   return (
@@ -44,7 +45,7 @@ const WorkProcess = () => {
           </div>
           <div className="col-lg-4">
             <div className="work-img-2">
-              <img src="/assets/img/work-img.png" alt="Images" />
+              <img src={workImg} alt="Work Process" />
             </div>
           </div>
           <div className="col-lg-4">

@@ -1,4 +1,10 @@
 import React from 'react';
+import bannerImg from '../../assets/img/home-two/home-two-img.png';
+import shape1 from '../../assets/img/home-two/home-two-shape1.png';
+import shape2 from '../../assets/img/home-two/home-two-shape2.png';
+import shape3 from '../../assets/img/home-two/home-two-shape3.png';
+import dots1 from '../../assets/img/home-two/home-two-dots.png';
+import dots2 from '../../assets/img/home-two/home-two-dots2.png';
 
 const Banner = () => {
   return (
@@ -25,7 +31,7 @@ const Banner = () => {
             </div>
             <div className="col-lg-7">
               <div className="banner-img-2">
-                <img src="/assets/img/home-two/home-two-img.png" alt="Images" />
+                <img src={bannerImg} alt="Banner" />
               </div>
             </div>
           </div>
@@ -33,19 +39,19 @@ const Banner = () => {
       </div>
       <div className="banner-bottom-shape">
         <div className="shape-one wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
-          <img src="/assets/img/home-two/home-two-shape1.png" alt="Images" />
+          <img src={shape1} alt="Shape 1" />
         </div>
         <div className="shape-two wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
-          <img src="/assets/img/home-two/home-two-shape2.png" alt="Images" />
+          <img src={shape2} alt="Shape 2" />
         </div>
         <div className="shape-three wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
-          <img src="/assets/img/home-two/home-two-shape3.png" alt="Images" />
+          <img src={shape3} alt="Shape 3" />
         </div>
         <div className="banner-dots1">
-          <img src="/assets/img/home-two/home-two-dots.png" alt="Images" />
+          <img src={dots1} alt="Dots 1" />
         </div>
         <div className="banner-dots2">
-          <img src="/assets/img/home-two/home-two-dots2.png" alt="Images" />
+          <img src={dots2} alt="Dots 2" />
         </div>
       </div>
     </div>

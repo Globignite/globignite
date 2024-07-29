@@ -1,4 +1,5 @@
 import React from 'react';
+import dataTableImg from '../../assets/img/data-table-img.png';
 
 const DataTable = () => {
   return (
@@ -13,7 +14,7 @@ const DataTable = () => {
           </div>
           <div className="col-lg-6">
             <div className="data-table-img">
-              <img src="/assets/img/data-table-img.png" alt="Images" />
+              <img src={dataTableImg} alt="Data Table" />
             </div>
           </div>
         </div>
