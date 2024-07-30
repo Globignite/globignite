@@ -1,5 +1,5 @@
 import React from "react";
-import dataTableImg from "../../assets/img/data-table-img.png";
+import dataTableImg from "../../assets/img/home-three/home-three-img.png";
 
 const DataTable = () => {
   return (
