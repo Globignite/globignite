@@ -1,7 +1,5 @@
 .switch-box {
-  position: fixed;
-  bottom: 15px;
-  right: 120px;
+  position: relative;
   z-index: 9999;
 }
 .switch-box .slider {

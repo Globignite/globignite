@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Preloader from "../../components/Preloader";
 import Navbar from "../../components/Navbar";
 import AboutWidget from "../../components/AboutWidget";
@@ -17,9 +17,11 @@ import BlogArea from "./BlogArea";
 import DataTable from "./DataTable";
 
 const Home = () => {
+  
   return (
     <div>
       {/* <Preloader /> */}
+     
       <Navbar />
       <SearchOverlay />
       <Banner />

@@ -27,7 +27,7 @@ const ContactInfoCards = () => {
             <div className="contact-card">
               <i className="flaticon-email"></i>
               <h3>Contact</h3>
-              <p>Email: info@Zinka.com</p>
+              <p>Email: globignite@gmail.com</p>
               <p>Mobile: (+44) - 45789 - 5789</p>
               <a href="#" className="contact-card-btn">
                 Learn More

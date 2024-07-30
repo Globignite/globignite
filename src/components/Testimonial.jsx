@@ -39,8 +39,8 @@ const Testimonial = () => {
             <div className="testimonial-slider owl-carousel owl-theme">
               <div className="testimonial-item">
                 <p>
-                  I chose Zinka because of their value and incredible superior
-                  customer service. They really treated me like family.
+                  I chose globignite because of their value and incredible
+                  superior customer service. They really treated me like family.
                 </p>
                 <div className="content">
                   <img src={testimonialImg1} alt="David McLean" />
@@ -52,8 +52,8 @@ const Testimonial = () => {
               </div>
               <div className="testimonial-item">
                 <p>
-                  I chose Zinka because of their value and incredible superior
-                  customer service. They really treated me like family.
+                  I chose globignite because of their value and incredible
+                  superior customer service. They really treated me like family.
                 </p>
                 <div className="content">
                   <img src={testimonialImg2} alt="Jermin Jekson" />
@@ -65,8 +65,8 @@ const Testimonial = () => {
               </div>
               <div className="testimonial-item">
                 <p>
-                  I chose Zinka because of their value and incredible superior
-                  customer service. They really treated me like family.
+                  I chose globignite because of their value and incredible
+                  superior customer service. They really treated me like family.
                 </p>
                 <div className="content">
                   <img src={testimonialImg3} alt="Julfiker Jeain" />

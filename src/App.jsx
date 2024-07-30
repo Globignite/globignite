@@ -22,7 +22,7 @@ import "./assets/fonts/flaticon.css";
 
 const App = () => {
   return (
-    <Router>
+    <Router> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />

@@ -90,7 +90,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className='flaticon-email-1'></i>
-                    <a href="mailto:hello@zinka.com">hello@zinka.com</a>
+                    <a href="mailto:globignite@gmail.com">globignite@gmail.com</a>
                   </li>
                   <li>
                     <i className='flaticon-place'></i>
@@ -106,8 +106,7 @@ const Footer = () => {
             <div className="col-lg-8">
               <div className="copy-right-text text-left">
                 <p>
-                  Copyright Zinka. All Rights Reserved by 
-                  <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a>
+                  Copyright Globignite. All Rights Reserved by  
                 </p>
               </div>
             </div>
