@@ -1,5 +1,5 @@
-import React from 'react';
-import counterShape from '../assets/img/counter/counter-shape.png';
+import React from "react";
+import counterShape from "../assets/img/counter/counter-shape.png";
 
 const Counter = () => {
   return (
@@ -8,26 +8,26 @@ const Counter = () => {
         <div className="row">
           <div className="col-lg-3 col-sm-6 col-md-3">
             <div className="counter-card">
-              <h3>10 Years</h3>
-              <p>GLORIOUS YEARS</p>
+              <h3>3</h3>
+              <p>YEARS OF INNOVATION</p>
             </div>
           </div>
           <div className="col-lg-3 col-sm-6 col-md-3">
             <div className="counter-card">
               <h3>100%</h3>
-              <p>SATISFACTION RATE</p>
+              <p>CLIENT SATISFACTION RATE</p>
             </div>
           </div>
           <div className="col-lg-3 col-sm-6 col-md-3">
             <div className="counter-card">
-              <h3>70+</h3>
-              <p>TEAM MEMBERS</p>
+              <h3>50+</h3>
+              <p>PROJECTS COMPLETED</p>
             </div>
           </div>
           <div className="col-lg-3 col-sm-6 col-md-3">
             <div className="counter-card">
-              <h3>25+</h3>
-              <p>SENIOR SCIENTIST</p>
+              <h3>30+</h3>
+              <p>EXPERT DEVELOPERS</p>
             </div>
           </div>
         </div>

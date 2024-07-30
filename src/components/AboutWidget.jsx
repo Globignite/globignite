@@ -1,5 +1,5 @@
-import React from 'react';
-import aboutImg4 from '../assets/img/about/about-img4.png';
+import React from "react";
+import aboutImg4 from "../assets/img/about/about-img4.png";
 
 const AboutWidget = () => {
   return (
@@ -17,33 +17,56 @@ const AboutWidget = () => {
                 <span className="sp-before sp-after">About Us</span>
                 <h2>Grow Your Business With Our Agency</h2>
               </div>
-              <h3>We have 30 years. Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for business.</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna tetur adipisicing saliqua.</p>
+              <h3>
+                Empowering Businesses with 3 Years of Innovation and Excellence
+              </h3>
+              <p>
+                At Globignite, we are dedicated to driving technological
+                innovation and delivering outstanding software solutions that
+                meet the unique needs of your business. Our commitment to
+                excellence ensures that we consistently evolve and adapt to the
+                latest industry trends and technologies.
+              </p>
               <div className="about-widget-list">
                 <ul>
                   <li>
-                    <i className='bx bx-check'></i>
+                    <i className="bx bx-check"></i>
                     <span>01</span>
-                    <p>High standards of professionalism, integrity. Establishment of close working relationships.</p>
+                    <p>
+                      High standards of professionalism and integrity. We
+                      establish close working relationships with our clients to
+                      ensure mutual success.
+                    </p>
                   </li>
                   <li>
-                    <i className='bx bx-check'></i>
+                    <i className="bx bx-check"></i>
                     <span>02</span>
-                    <p>A different way of thinking, both inside and outside the box. We do not have to be the best.</p>
+                    <p>
+                      Innovative thinking both inside and outside the box. Our
+                      creative approach ensures we deliver unique and effective
+                      solutions.
+                    </p>
                   </li>
                   <li>
-                    <i className='bx bx-check'></i>
+                    <i className="bx bx-check"></i>
                     <span>03</span>
-                    <p>We do not have to be the best, we do have to give our best. Ability to learn. Multicultural competence.</p>
+                    <p>
+                      Commitment to giving our best in every project. We value
+                      continuous learning and embrace multicultural competence
+                      to serve a global clientele.
+                    </p>
                   </li>
                 </ul>
               </div>
-              <div className="about-video">
-                <a href="https://www.youtube.com/watch?v=07d2dXHYb94&t=6s" className="video-btn popup-btn">
-                  <i className='flaticon-forward'></i>
+              {/* <div className="about-video">
+                <a
+                  href="https://www.youtube.com/watch?v=07d2dXHYb94&t=6s"
+                  className="video-btn popup-btn"
+                >
+                  <i className="flaticon-forward"></i>
                   <span>Play Video</span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

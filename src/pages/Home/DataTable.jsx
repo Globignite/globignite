@@ -1,5 +1,5 @@
-import React from 'react';
-import dataTableImg from '../../assets/img/data-table-img.png';
+import React from "react";
+import dataTableImg from "../../assets/img/data-table-img.png";
 
 const DataTable = () => {
   return (
@@ -9,7 +9,9 @@ const DataTable = () => {
           <div className="col-lg-6">
             <div className="data-table-content">
               <h2>We Like to Start Your Project With Us</h2>
-              <a href="#" className="default-btn">Get started <i className='bx bx-plus'></i></a>
+              <a href="/contact-us" className="default-btn">
+                Get started <i className="bx bx-plus"></i>
+              </a>
             </div>
           </div>
           <div className="col-lg-6">

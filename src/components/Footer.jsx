@@ -1,6 +1,6 @@
-import React from 'react';
-import logo1 from '../assets/img/logo/logo1.png';
-import logo2 from '../assets/img/logo/logo2.png';
+import React from "react";
+import logo1 from "../assets/img/logo/logo1.png";
+import logo2 from "../assets/img/logo/logo2.png";
 
 const Footer = () => {
   return (
@@ -8,35 +8,50 @@ const Footer = () => {
       <div className="container">
         <div className="footer-midal pb-70">
           <div className="row">
-            <div className="col-lg-4 col-sm-7">
+            <div className="col-lg-6 col-sm-12">
               <div className="footer-widget">
                 <div className="footer-img">
                   <img src={logo1} className="footer-img1" alt="Logo 1" />
                   <img src={logo2} className="footer-img2" alt="Logo 2" />
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna</p>
+                <p>
+                  Globignite is a leading software development agency committed
+                  to delivering innovative and customized solutions that drive
+                  business success. Our team of experts is dedicated to
+                  transforming your vision into reality.
+                </p>
                 <div className="footer-social-icon">
                   <ul className="social-link">
                     <li>
-                      <a href="#" target="_blank"><i className='bx bxl-facebook'></i></a>
+                      <a href="#" target="_blank">
+                        <i className="bx bxl-facebook"></i>
+                      </a>
                     </li>
                     <li>
-                      <a href="#" target="_blank"><i className='bx bxl-twitter'></i></a>
+                      <a href="#" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
                     </li>
                     <li>
-                      <a href="#" target="_blank"><i className='bx bxl-instagram'></i></a>
+                      <a href="#" target="_blank">
+                        <i className="bx bxl-instagram"></i>
+                      </a>
                     </li>
                     <li>
-                      <a href="#" target="_blank"><i className='bx bxl-pinterest-alt'></i></a>
+                      <a href="#" target="_blank">
+                        <i className="bx bxl-pinterest-alt"></i>
+                      </a>
                     </li>
                     <li>
-                      <a href="#" target="_blank"><i className='bx bxl-youtube'></i></a>
+                      <a href="#" target="_blank">
+                        <i className="bx bxl-youtube"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-sm-5">
+            {/* <div className="col-lg-2 col-sm-5">
               <div className="footer-widget">
                 <h3>Resources</h3>
                 <ul className="footer-list">
@@ -57,10 +72,10 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="col-lg-3 col-sm-7">
+            </div> */}
+            <div className="col-lg-3 col-sm-6">
               <div className="footer-widget ps-5">
-                <h3>Company</h3>
+                <h3>Quick Links</h3>
                 <ul className="footer-list">
                   <li>
                     <a href="/">Home</a>
@@ -69,31 +84,27 @@ const Footer = () => {
                     <a href="/about-us">About</a>
                   </li>
                   <li>
-                    <a href="/case-study">Case Studies</a>
-                  </li>
-                  <li>
-                    <a href="/blog">Our Blog</a>
-                  </li>
-                  <li>
                     <a href="/contact-us">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-5">
+            <div className="col-lg-3 col-sm-6">
               <div className="footer-widget">
                 <h3>Address</h3>
                 <ul className="footer-list-two">
                   <li>
-                    <i className='flaticon-telephone'></i>
+                    <i className="flaticon-telephone"></i>
                     <a href="tel:+4498886660000">+449 888 666 0000</a>
                   </li>
                   <li>
-                    <i className='flaticon-email-1'></i>
-                    <a href="mailto:globignite@gmail.com">globignite@gmail.com</a>
+                    <i className="flaticon-email-1"></i>
+                    <a href="mailto:globignite@gmail.com">
+                      globignite@gmail.com
+                    </a>
                   </li>
                   <li>
-                    <i className='flaticon-place'></i>
+                    <i className="flaticon-place"></i>
                     855 road, brooklyn street new york 600
                   </li>
                 </ul>
@@ -103,19 +114,9 @@ const Footer = () => {
         </div>
         <div className="copy-right-area">
           <div className="row">
-            <div className="col-lg-8">
-              <div className="copy-right-text text-left">
-                <p>
-                  Copyright Globignite. All Rights Reserved by  
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4">
-              <div className="copy-right-list">
-                <ul>
-                  <li><a href="/privacy-policy"> Privacy Policy </a></li>
-                  <li><a href="/terms-condition"> Terms & Conditions </a></li>
-                </ul>
+            <div className="col-12">
+              <div className="copy-right-text text-center">
+                <p>Copyright & All Rights Reserved by Globignite.</p>
               </div>
             </div>
           </div>

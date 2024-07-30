@@ -15,29 +15,29 @@ const WorkProcess = () => {
               <ul>
                 <li className="text-right">
                   <h3>
-                    Frame the Problem <span>1</span>
+                    Understand the Requirements <span>1</span>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                    consequuntur
+                    We begin by thoroughly understanding your business needs and
+                    objectives to ensure a clear and focused project direction.
                   </p>
                 </li>
                 <li className="text-right">
                   <h3>
-                    Collect the Raw Data <span>2</span>
+                    Research & Planning <span>2</span>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                    consequuntur
+                    Our team conducts in-depth research and plans strategically
+                    to lay a strong foundation for the project.
                   </p>
                 </li>
                 <li className="text-right">
                   <h3>
-                    Process the Data <span>3</span>
+                    Design & Prototyping <span>3</span>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                    consequuntur
+                    We create detailed designs and prototypes to visualize the
+                    end product and ensure alignment with your vision.
                   </p>
                 </li>
               </ul>
@@ -53,29 +53,29 @@ const WorkProcess = () => {
               <ul>
                 <li>
                   <h3>
-                    <span>4</span>Explore the Data
+                    <span>4</span>Development
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                    consequuntur
+                    Our skilled developers build robust and scalable solutions
+                    using the latest technologies and best practices.
                   </p>
                 </li>
                 <li>
                   <h3>
-                    <span>5</span>Perform Analysis
+                    <span>5</span>Testing & Quality Assurance
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                    consequuntur
+                    We rigorously test the product to ensure it meets the
+                    highest standards of quality and performance.
                   </p>
                 </li>
                 <li>
                   <h3>
-                    <span>6</span>Communicate Results
+                    <span>6</span>Deployment & Support
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet, aut odiut podit afugitsed quia
-                    consequuntur
+                    We deploy the final product and provide ongoing support to
+                    ensure seamless integration and optimal performance.
                   </p>
                 </li>
               </ul>
