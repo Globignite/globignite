@@ -55,12 +55,7 @@
   .mobile-nav .logo .logo-two {
     display: none;
   }
-  .side-nav.d-flex.align-items-center {
-    display: none !important;
-  }
-  .side-nav-responsive {
-    display: block;
-  }
+
   .search-overlay .search-form form .input-search {
     height: 50px;
     padding: 0 0 0 15px;
@@ -82,14 +77,7 @@
     font-size: 18px;
     line-height: 35px;
   }
-  .side-nav-responsive .side-nav-inner .side-nav {
-    text-align: center;
-  }
-  .side-nav-responsive .side-nav-inner .side-nav .side-item {
-    padding-left: unset;
-    margin: 0 10px;
-    text-align: center;
-  }
+
   /* Navbar CSS End */
   /* Main Banner CSS */
   .banner-content {
@@ -165,7 +153,7 @@
     display: none;
   }
   .banner-content-two {
-    padding-top: 140px;
+    padding-top: 50px;
     padding-bottom: 30px;
   }
   .banner-content-two h1 {
@@ -1309,12 +1297,7 @@
   .mobile-nav .logo .logo-two {
     display: none;
   }
-  .side-nav.d-flex.align-items-center {
-    display: none !important;
-  }
-  .side-nav-responsive {
-    display: block;
-  }
+
   .search-overlay .search-form form .input-search {
     height: 50px;
     padding: 0 0 0 15px;
@@ -1336,14 +1319,7 @@
     font-size: 18px;
     line-height: 35px;
   }
-  .side-nav-responsive .side-nav-inner .side-nav {
-    text-align: center;
-  }
-  .side-nav-responsive .side-nav-inner .side-nav .side-item {
-    padding-left: unset;
-    margin: 0 10px;
-    text-align: center;
-  }
+
   /* Navbar CSS End */
   /* Main Banner CSS */
   .banner-content {
@@ -2138,33 +2114,6 @@
   /* Coming Soon End */
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .main-nav nav .navbar-nav .nav-item a {
-    margin-left: 8px;
-    margin-right: 8px;
-  }
-  .main-nav nav .side-nav {
-    padding: 10px 0 3px;
-    margin-left: 10px;
-  }
-  .main-nav nav .side-nav .side-item {
-    padding-left: 10px;
-  }
-  .main-nav nav .side-nav .side-item .search-box-2 {
-    width: 180px;
-  }
-  .main-nav nav .side-nav .side-item .search-box-2 .form-control {
-    width: 180px;
-    border-radius: 5px;
-    font-size: 14px;
-  }
-  .main-nav nav .side-nav .side-item .search-box-2 .search-btn {
-    right: 3px;
-    width: 40px;
-    font-size: 16px;
-  }
-  .main-nav nav .side-nav .side-item .nav-menu-btn {
-    padding: 10px 16px;
-  }
   .navbar-light .navbar-brand img {
     max-width: 130px;
   }

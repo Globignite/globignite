@@ -1,66 +1,52 @@
- 
 import { Link } from "react-router-dom";
-import logo1 from "../assets/img/logo/logo1.png";
+import { useState } from "react";
+import logo1 from "../assets/img/logo/logo1.png"; // Assuming you might use both logos
 import logo2 from "../assets/img/logo/logo2.png";
 import "../assets/css/responsive.css";
 
 const Navbar = () => {
-  const currentPath = window.location.pathname;
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   return (
-    <div className="navbar-area">
-      <div className="mobile-nav">
-        <Link to="/" className="logo">
-          <img src={logo1} className="logo-one" alt="Logo" />
-          <img src={logo2} className="logo-two" alt="Logo" />
+    <nav className="main-navbar">
+      <div className="navbar-container">
+        <Link className="navbar-logo" to="/">
+          <img src={logo2} alt="Globignite Logo" />
         </Link>
-      </div>
-      <div className="main-nav nav-bar-two">
-        <div className="container-fluid">
-          <nav className="container-max-2 navbar navbar-expand-md navbar-light">
-            <Link className="navbar-brand" to="/">
-              <img src={logo2} alt="Logo" />
-            </Link>
-            <div
-              className="collapse navbar-collapse mean-menu"
-              id="navbarSupportedContent"
-            >
-              <div className="side-nav d-flex align-items-center">
-                <ul className="navbar-nav">
-                  <li className="nav-item">
-                    <Link
-                      to="/"
-                      className={`nav-link ${
-                        currentPath === "/" ? "active" : ""
-                      }`}
-                    >
-                      Home
-                    </Link>
-                  </li>
-                  <li className="nav-item">
-                    <Link
-                      to="/about-us"
-                      className={`nav-link ${
-                        currentPath === "/about-us" ? "active" : ""
-                      }`}
-                    >
-                      About
-                    </Link>
-                  </li>
-                </ul>
-                <div className="side-item">
-                  <div className="nav-add-btn">
-                    <Link to="/contact-us" className="nav-menu-btn">
-                      Contact us
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </nav>
+
+        <button
+          className="mobile-menu-toggle"
+          onClick={toggleMobileMenu}
+          aria-label="Toggle navigation"
+        >
+          &#9776;
+        </button>
+
+        <div className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
+          <ul className="navbar-list">
+            <li className="navbar-item">
+              <Link to="/" className="navbar-link">
+                Home
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link to="/about-us" className="navbar-link">
+                About
+              </Link>
+            </li>
+            <li className="navbar-item">
+              <Link to="/contact-us" className="contact-button">
+                Contact Us
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

@@ -1,0 +1,119 @@
+.main-navbar {
+  background-color: #0049aa; /* Adjust to match your brand colors */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo img {
+  max-height: 50px; /* Adjust logo size as needed */
+}
+
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar-links ul {
+  margin-bottom: 0;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-item .contact-button {
+  background-color: #ff5722; /* Adjust button color */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background-color: #e64a19; /* Adjust hover color */
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    background-color: #003d92;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #003d92;
+    padding: 30px;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    text-align: center;
+  }
+
+  .navbar-action {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar-links.active {
+    display: flex;
+  }
+}

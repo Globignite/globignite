@@ -95,7 +95,7 @@ const Footer = () => {
                 <ul className="footer-list-two">
                   <li>
                     <i className="flaticon-telephone"></i>
-                    <a href="tel:+4498886660000">+449 888 666 0000</a>
+                    <a href="tel:+917587482947">+91 758-748-2947</a>
                   </li>
                   <li>
                     <i className="flaticon-email-1"></i>
@@ -105,7 +105,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <i className="flaticon-place"></i>
-                    855 road, brooklyn street new york 600
+                    HSR , Bengaluru , Karnataka , India
                   </li>
                 </ul>
               </div>

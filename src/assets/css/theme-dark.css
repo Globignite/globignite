@@ -163,9 +163,7 @@
 .theme-dark .search-overlay .search-form form .input-search:focus::placeholder {
   color: #ffffff;
 }
-.theme-dark .main-nav nav .side-nav .side-item .search-box-2 .form-control {
-  background-color: #252525;
-}
+
 .theme-dark .about-content-two .about-list {
   background-color: #252525;
 }

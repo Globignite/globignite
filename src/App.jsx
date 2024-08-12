@@ -10,19 +10,19 @@ import "./assets/css/animate.min.css";
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/boxicons.min.css";
 import "./assets/css/magnific-popup.min.css";
-import "./assets/css/meanmenu.css";
 import "./assets/css/owl.carousel.min.css";
 import "./assets/css/owl.theme.default.min.css";
 import "./assets/css/responsive.css";
 import "./assets/css/style.css";
 import "./assets/css/theme-dark.css";
+import "./assets/css/MyNav.css";
 
 // Importing font CSS
 import "./assets/fonts/flaticon.css";
 
 const App = () => {
   return (
-    <Router> 
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<About />} />

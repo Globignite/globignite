@@ -22,6 +22,7 @@ const ContactInfoCards = () => {
               <i className="flaticon-email"></i>
               <h3>Contact</h3>
               <p>Email: globignite@gmail.com</p>
+              <p>Phone: +91 758-748-2947</p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
